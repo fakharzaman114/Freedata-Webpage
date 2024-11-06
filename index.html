@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedata - Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="Logo Image">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">XML File</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Document Files</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Audio Files</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video Files</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Image Files</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Other Files</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sample JSON File</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section d-flex align-items-center justify-content-center">
+        <div class="hero-content text-center text-white">
+            <h1>Welcome to Free Test Data - Download Test Files</h1>
+            <p>Your one-stop source for free test data files. Test files serve a wide variety of purposes, including
+                testing applications, software programs, and network performance. These files are also valuable tools
+                for checking internet speed and ensuring optimal connectivity. Our selection of sample files includes
+                diverse formats such as audio, video, documents, images, and various other file types, all available for
+                convenient download.
+            </p>
+        </div>
+    </section>
+
+    <!--Cards Section-->
+    <section class="file-formats-section py-5">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="text-center mb-4">
+                <h2>Most Popular Files Formats to Download Sample Files</h2>
+                <p>To test ideas for demonstration purposes, you may need sample or dummy files. The files are free to
+                    download and 100% secure.</p>
+            </div>
+
+            <!-- Cards Grid 1st Row -->
+            <div class="row">
+                <!-- Video Files Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card file-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="icon mb-3">
+                                <img src="images/video-card-img.jpg" alt="Video Icon" class="icon-img">
+                            </div>
+                            <h5 class="card-title">Video Files</h5>
+                            <p class="card-text">These video files are excellent for use in testing and demos. Download
+                                free files in a variety of formats.</p>
+                            <a href="#" class="browse-more">Browse More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Audio Files Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card file-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="icon mb-3">
+                                <img src="images/audio-card-img.png" alt="Audio Icon" class="icon-img">
+                            </div>
+                            <h5 class="card-title">Audio Files</h5>
+                            <p class="card-text">Does the testing require Mp3, WAV, or another audio format? Choose free
+                                files based on size and format.</p>
+                            <a href="#" class="browse-more">Browse More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document Files Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card file-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="icon mb-3">
+                                <img src="images/document-card-img.png" alt="Document Icon" class="icon-img">
+                            </div>
+                            <h5 class="card-title">Document Files</h5>
+                            <p class="card-text">We provide a whole set of document formats: Doc, Docx, ODT, PDF, XLS,
+                                PPT, PPS, and others.</p>
+                            <a href="#" class="browse-more">Browse More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Cards Grid 2nd Row-->
+            <div class="row">
+                <!-- Image Files Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card file-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="icon mb-3">
+                                <img src="images/image-card-img.png" alt="Image Files" class="icon-img">
+                            </div>
+                            <h5 class="card-title">Image Files</h5>
+                            <p class="card-text">An image bank for testing. Download from various sizes and formats
+                                (jpg, png, gif).</p>
+                            <a href="#" class="browse-more">Browse More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Files Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card file-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="icon mb-3">
+                                <img src="images/other-files-card-img.png" alt="Other Files" class="icon-img">
+                            </div>
+                            <h5 class="card-title">Other Files</h5>
+                            <p class="card-text">A collection of text files and archives. The files can be downloaded in
+                                HTML and CSV formats.</p>
+                            <a href="#" class="browse-more">Browse More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lorem Ipsum Generator Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card file-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="icon mb-3">
+                                <img src="images/lorem-card-img.png" alt="Lorem Files" class="icon-img">
+                            </div>
+                            <h5 class="card-title">Lorem Ipsum Files</h5>
+                            <p class="card-text">A tool that provide dummy paragraph generator according to the
+                                requirement.</p>
+                            <a href="#" class="browse-more">Browse More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--Cards Grid 3rd Row-->
+            <div class="row">
+                <!-- Data Generator Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card file-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="icon mb-3">
+                                <img src="images/data-generator-card-img.png" alt="Data Generator Files"
+                                    class="icon-img">
+                            </div>
+                            <h5 class="card-title">Data Generator</h5>
+                            <p class="card-text">Data Generator is a free tool that helps user to generate test data for
+                                free.</p>
+                            <a href="#" class="browse-more">Browse More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Files Card -->
+                <div class="col-md-4 mb-4">
+                    <div class="card file-card h-100 text-center">
+                        <div class="card-body">
+                            <div class="icon mb-3">
+                                <img src="images/placeholder-card-img.png" alt="Placeholder Generator Files"
+                                    class="icon-img">
+                            </div>
+                            <h5 class="card-title">Placeholder Image Generator</h5>
+                            <p class="card-text">Placeholder Image Generator is a tool to generate dummy images that can
+                                be used to design web pages.</p>
+                            <a href="#" class="browse-more">Browse More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- How to Download Test Files Section -->
+    <section class="download-section py-5">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="text-center mb-4">
+                <h2>How to Download Test Files?</h2>
+                <p>Follow these simple steps to download the test files of your choice:</p>
+            </div>
+
+            <!-- Steps in One Row -->
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="step-item d-flex flex-column h-100">
+                        <h5><strong>Step 1:</strong> Choose a sample file</h5>
+                        <p>Select the sample file from our website that you want to use for testing.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="step-item d-flex flex-column h-100">
+                        <h5><strong>Step 2:</strong> Choose the file format</h5>
+                        <p>Pick the desired file format based on the sample you selected. We offer a variety of formats.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-12 mb-4">
+                    <div class="step-item d-flex flex-column h-100">
+                        <h5><strong>Step 3:</strong> Click the Download button</h5>
+                        <p>Once you’ve selected the format, click the Download button, and your chosen file will be
+                            downloaded based on the selected format and size.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usage of Test Files Section -->
+    <section class="usage-section py-5">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+                <h2>Usage of Test Files</h2>
+                <p>Sample test files are valuable for the development of digital file standards. They provide valuable
+                    feedback too. The critical thing for test files is that their file format should be characterized to
+                    ensure it complies with the specifications. The use of sample files can sometimes indicate whether a
+                    file format meets a standard. On the other hand, a standardized format can help identify multiple
+                    issues. In short, this service is no less than a heaven for developers, designers, and testers.
+                </p>
+            </div>
+
+            <!-- Who Can Use These Test Files Section -->
+            <div class="who-can-use-section">
+                <div class="text-center mt-3">
+                    <h2>Who Can Use These Test Files:</h2>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-8">
+                        <h5><strong>Quality Assurance Engineer</strong></h5>
+                        <p>As a QA engineer, you always need some dummy or sample files that you can use to test any
+                            service. There are plenty of sample files available in different formats that can assist you
+                            during quality assurance.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/QA-Engineer-Check-img.png" alt="QA Engineer Check Image" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-4">
+                        <img src="images/Freelancer-Check-img.png" alt="Freelancer Check Image" class="img-fluid">
+                    </div>
+                    <div class="col-md-8">
+                        <h5><strong>Freelancers</strong></h5>
+                        <p>As a freelancer, it’s quite expensive to hire a QA engineer to test your application.
+                            Instead, you can do the testing by yourself. Pick a testing file according to your need and
+                            test your application by yourself.</p>
+                    </div>
+                </div>
+
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-8">
+                        <h5><strong>Business Owner</strong></h5>
+                        <p>It’s absolutely easy for a business owner to test his newly developed application or product
+                            by himself. There is no need to rely on others; you can download test files to check your
+                            application for free.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/Business-Owner-Check-img.png" alt="Business Owner Check Image"
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits to Download Test Files -->
+    <section class="benefits-section py-5">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="text-center mb-5">
+                <h2>Benefits To Download Test File</h2>
+                <p>Free Test Data offers free sample test files. The test files include a wide variety of file types, including Audio, Video, Document, Image, and many others. Once you’ve chosen the one you want, you can download it with a single click.</p>
+            </div>
+    
+            <div class="row">
+                <!-- Benefit 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="benefit-item">
+                        <h5><strong>Understand a New File Format</strong></h5>
+                        <p>Using a sample file is a great way to understand a new file format. Potential implementers can evaluate the format and assess the learning curve using a sample file. Hence, a sample file enables technologists to evaluate the format before making a significant investment.</p>
+                    </div>
+                </div>
+                <!-- Benefit 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="benefit-item">
+                        <h5><strong>Test in a Specific Context</strong></h5>
+                        <p>A sample test file is not the only way to evaluate a file format. In some cases, a sample file is used to test an application in a specific context. Often, a sample file can be a crucial part of a larger project. It can also help test new products, assess the learning curve, and evaluate a new format’s quality.</p>
+                    </div>
+                </div>
+                <!-- Benefit 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="benefit-item">
+                        <h5><strong>Identify Problems & Bugs</strong></h5>
+                        <p>Another advantage of a sample test is that it helps you identify any problem. In some cases, a test file will even recognize a bug in an application. If it doesn’t, the test will not run at all.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <!-- Benefit 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="benefit-item">
+                        <h5><strong>Prevents Malware & Spyware</strong></h5>
+                        <p>When a test file is legitimate, it will generate several sensible results. It will prevent problems with malware and spyware. It will also make your tests more efficient. Ultimately, sample test files prove to be vital for the development process.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container">
+            <div class="faq-header text-center mb-4">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-content">
+                <div class="faq-item">
+                    <h5>What are the test files?</h5>
+                    <p>Test files can be used for a variety of purposes. They are utilized to test code and units. But, the primary reason to download test files is that they evaluate download speeds on various internet connections.</p>
+                </div>
+                <div class="faq-item">
+                    <h5>What sizes of test files do you offer?</h5>
+                    <p>There are dummy files that include huge files such as 10GB, 5GB, 1GB, 200MB, 512MB, 100MB, 50MB, 20MB, 10MB, 5MB, 1MB, and even 100KB.</p>
+                </div>
+                <div class="faq-item">
+                    <h5>Are these sample test files free to use?</h5>
+                    <p>Yes, you can download the test file free of cost. Another advantage of using these sample files is that they are error-free. You would not find any bugs or problems while testing any service.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Footer Section-->
+    <footer class="footer-section py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Left Section -->
+                <div class="col-md-4 footer-links">
+                    <ul>
+                        <li><a href="#">JSON File Download</a></li>
+                        <li><a href="#">Sample Images</a></li>
+                        <li><a href="#">Sample Audio Files</a></li>
+                        <li><a href="#">Sample Video</a></li>
+                        <li><a href="#">Sample Documents</a></li>
+                        <li><a href="#">Other Files</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Center Section -->
+                <div class="col-md-4 footer-links text-center">
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Right Section -->
+                <div class="col-md-4 text-right">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Free Test Data Logo" class="footer-logo-img">
+                        <p>Free Test Data</p>
+                    </div>
+                </div>
+            </div>
+    
+            <hr class="footer-divider">
+            <div class="footer-copyright text-center">
+                <p>&copy; 2024 Powered by FreeTestData.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies (Popper.js and Bootstrap Bundle) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

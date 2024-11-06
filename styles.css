@@ -1,0 +1,657 @@
+/* Navbar Styling */
+.navbar-brand img {
+    height: 70px;
+    object-fit: cover;
+}
+
+/* Default link styling */
+.navbar-nav .nav-link {
+    color: #6200ff;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.4s ease;
+}
+
+/* Active link styling */
+.navbar-nav .nav-link.active {
+    color: #6200ff !important;
+}
+
+/* Hover effect styling for all links, including active */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+    color: #000 !important;  /* Black color on hover */
+    text-decoration: none;
+}
+
+/* Underline effect on hover for all links, including active */
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active:hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #000; /* Black underline on hover */
+}
+
+
+
+/* Hero Section Styling */
+.hero-section {
+    height: 75vh;
+    /* background-image: url('images/hero-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Cards Section Styling */
+.file-formats-section {
+    background-color: #fff;
+}
+
+.file-formats-section .container .text-center h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.file-card {
+    border: 1px solid #d1e7ff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.file-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background-color: #d1e7ff;
+}
+
+.file-card .icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-card .icon-img {
+    width: 40px;
+    height: 40px;
+}
+
+.file-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333333;
+    margin-top: 1rem;
+}
+
+.file-card .card-text {
+    font-size: 0.95rem;
+    color: #666666;
+    margin: 1rem 0;
+}
+
+.browse-more {
+    font-weight: 500;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.browse-more:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+/* How to Download Test Files Section Styling */
+.download-section {
+    background-color: #fff;
+}
+
+.download-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.step-item h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333333;
+}
+
+.step-item p {
+    font-size: 1rem;
+    color: #666666;
+    margin-top: 0.5rem;
+}
+
+.step-item {
+    background-color: #ffffff;
+    border-left: 4px solid #6200ff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.step-item:first-child {
+    margin-top: 0;
+}
+
+.step-item:last-child {
+    margin-bottom: 0;
+}
+
+.step-item h5 strong {
+    color: #6200ff;
+}
+
+.step-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Usage of Test Files Section Styling */
+.usage-section {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+.usage-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+/* .usage-section p {
+    font-size: 1rem;
+    color: #666666;
+    max-width: 800px;
+    line-height: 1.6;
+} */
+
+/* Who Can Use These Test Files Section */
+.who-can-use-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.who-can-use-section .row {
+    margin-bottom: 30px;
+}
+
+.who-can-use-section .step-item {
+    background-color: #ffffff;
+    border-left: 4px solid #6200ff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.who-can-use-section .step-item h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.who-can-use-section .step-item p {
+    font-size: 1rem;
+    color: #666666;
+    line-height: 1.6;
+}
+
+.who-can-use-section .step-item img {
+    max-width: 100%;
+}
+
+
+/* Benefits Section Stylings */
+.benefits-section .benefit-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 100%;
+    height:100%;
+}
+
+.benefits-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.benefits-section p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.benefit-item h5 {
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.benefit-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+
+/* FAQ Section Styling */
+.faq-section {
+    background-color: #ffffff; /* White background */
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Light shadow for visibility */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.faq-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* FAQ Content Styling */
+.faq-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px;
+}
+
+.faq-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for card effect */
+}
+
+.faq-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.faq-item h5 {
+    font-size: 1.25rem;
+    color: #0056b3;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #555555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1080px) {
+    .faq-section {
+        padding: 30px 15px;
+    }
+
+    .faq-header h2 {
+        font-size: 1.75rem;
+    }
+
+    .faq-item h5 {
+        font-size: 1.15rem;
+    }
+
+    .faq-item p {
+        font-size: 0.95rem;
+    }
+}
+
+
+/* Footer Section Styling */
+.footer-section {
+    background-color: #333333;  /* Dark grey background */
+    color: #ffffff;  /* White text for contrast */
+    padding: 40px 20px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #6200ff;  /* Light purple for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #ffffff;
+}
+
+/* Footer Logo Styling */
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footer-logo-img {
+    width: 120px;
+    margin-bottom: 5px;
+}
+
+/* Divider Line Styling */
+.footer-divider {
+    border-color: #ffffff; /* White divider line */
+    margin: 20px 0;
+}
+
+/* Center-align content */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero Section Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+}
+
+/*Cards Section Responsive Adjustments */
+@media (max-width: 768px) {
+    .file-card .icon-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .file-card .card-title {
+        font-size: 1.1rem;
+    }
+
+    .file-card .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* How to Download Test Files Section Responsive Adjustments */
+@media (max-width: 768px) {
+    .step-item h5 {
+        font-size: 1.1rem;
+    }
+
+    .step-item p {
+        font-size: 0.95rem;
+    }
+
+    .col-md-4 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+
+
+/* Usage of Test Files Section Responsive Adjustments */
+/* For Mobile & Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .usage-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .usage-section p {
+        font-size: 0.95rem;
+    }
+
+    .who-can-use-section .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .who-can-use-section .row:nth-of-type(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .who-can-use-section .row:nth-of-type(2) .col-md-4 {
+        order: 1;
+    }
+
+    .who-can-use-section .row:nth-of-type(2) .col-md-8 {
+        order: 2;
+    }
+
+    .who-can-use-section .col-md-4 img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .who-can-use-section .col-md-4,
+    .who-can-use-section .col-md-8 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .who-can-use-section .step-item h5 {
+        font-size: 1.2rem;
+    }
+
+    .who-can-use-section .step-item p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Very Small Devices (Mobile Phones - max-width: 480px) */
+@media (max-width: 480px) {
+    .usage-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .usage-section p {
+        font-size: 0.85rem;
+    }
+
+    .who-can-use-section .step-item h5 {
+        font-size: 1.1rem;
+    }
+
+    .who-can-use-section .step-item p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Benfits Sections responsive adjustments */
+@media (max-width: 768px) {
+    .benefits-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .benefits-section p {
+        font-size: 0.95rem;
+    }
+
+    .benefit-item h5 {
+        font-size: 1.1rem;
+    }
+
+    .benefit-item p {
+        font-size: 0.9rem;
+    }
+
+    /* Flexbox Layout Adjustments for Small Devices */
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .benefit-item {
+        margin-bottom: 30px;
+        padding: 15px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .benefit-item img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    /* Column layout on small devices */
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .benefit-item h5, .benefit-item p {
+        text-align: center;
+    }
+}
+
+/* Very Small Devices (Mobile Phones - max-width: 480px) */
+@media (max-width: 480px) {
+    .benefits-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .benefits-section p {
+        font-size: 0.85rem;
+    }
+
+    .benefit-item h5 {
+        font-size: 1.0rem;
+    }
+
+    .benefit-item p {
+        font-size: 0.85rem;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Footer Section Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 20px 10px;
+    }
+
+    .footer-links, .footer-logo {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-logo {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section .row > div {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-logo-img {
+        margin: 0 auto;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+}
+
+
+
